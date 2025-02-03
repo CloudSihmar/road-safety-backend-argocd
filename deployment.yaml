@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: road-backend
-        image: cloudsihmar/road-backend:latest  
+        image: cloudsihmar/road-backend:v1.0.0
         ports:
         - containerPort: 8080 
 ---
